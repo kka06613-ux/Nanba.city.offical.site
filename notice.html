@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お知らせ｜難波市 公式サイト</title>
+<meta name="description" content="難波市 公式サイトのお知らせ一覧。市政に関する最新情報をお届けします。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* お知らせ詳細ページ用の補助スタイル（style.cssにクラスが無い場合のフォールバック） */
+  .notice-detail-list{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+    margin-top:32px;
+  }
+  .notice-detail-item{
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:4px;
+    padding:24px 28px;
+    background:rgba(255,255,255,0.02);
+  }
+  .notice-detail-date{
+    display:inline-block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:13px;
+    letter-spacing:0.05em;
+    opacity:0.7;
+    margin-bottom:10px;
+  }
+  .notice-detail-title{
+    font-family:'Shippori Mincho', serif;
+    font-size:20px;
+    font-weight:700;
+    margin:0 0 12px;
+  }
+  .notice-detail-body{
+    font-size:15px;
+    line-height:1.9;
+    opacity:0.9;
+    margin:0;
+    white-space:pre-line;
+  }
+</style>
+</head>
+<body>
+
+<div class="blueprint-fixed" aria-hidden="true"></div>
+<header class="site-header">
+  <a href="index.html" class="brand">
+    <span class="brand-mark">難</span>
+    <span class="brand-text">
+      <span class="brand-ja">難波市</span>
+      <span class="brand-en">NANBA CITY OFFICIAL</span>
+    </span>
+  </a>
+  <nav class="site-nav">
+    <a href="notice.html">お知らせ</a>
+    <a href="charm.html">魅力</a>
+    <a href="mayor.html">市長</a>
+    <a href="development.html">開発部</a>
+    <a href="administration.html">管理部</a>
+    <a href="police.html">警察</a>
+    <a href="fire.html">消防</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ===================== NOTICE LIST ===================== -->
+  <section class="section directory-section" id="notice-list">
+    <div class="section-inner">
+      <p class="doc-number doc-number-alt">B1 / NOTICE</p>
+      <h2 class="section-title">お知らせ</h2>
+      <p class="section-lead">なんば市から、皆様に情報を。</p>
+
+      <div class="notice-detail-list">
+
+        <article class="notice-detail-item">
+          <span class="notice-detail-date">2026.09.25</span>
+          <h3 class="notice-detail-title">管理部・市長室から重要なお知らせ</h3>
+          <p class="notice-detail-body">なんば市管理部および市長室より、市民の皆様へ重要なお知らせがございます。詳細につきましては各部門ページ、またはDiscordサーバーの公式アナウンスをご確認ください。今後の運営方針や制度変更に関わる内容が含まれる場合がございますので、市政に関わる皆様は必ずご一読ください。</p>
+        </article>
+
+        <article class="notice-detail-item">
+          <span class="notice-detail-date">2026.09.20</span>
+          <h3 class="notice-detail-title">なんば市役所からのお知らせ</h3>
+          <p class="notice-detail-body">市役所窓口業務および各種申請の受付状況について、市民の皆様にお知らせいたします。混雑状況により対応に時間がかかる場合がございますので、あらかじめご了承ください。ご不明な点がございましたら、各部門の担当までお問い合わせください。</p>
+        </article>
+
+        <article class="notice-detail-item">
+          <span class="notice-detail-date">2026.09.15</span>
+          <h3 class="notice-detail-title">市政に関するお知らせ</h3>
+          <p class="notice-detail-body">なんば市の市政運営に関する最新情報をお届けします。今後のイベント予定や各部門の活動報告など、市民生活に関わる内容を随時更新してまいりますので、引き続きご注目ください。</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark brand-mark-sm">難</span>
+      <span class="brand-ja">難波市</span>
+    </div>
+    <nav class="footer-nav">
+      <a href="index.html">トップ</a>
+      <a href="notice.html">お知らせ</a>
+      <a href="charm.html">魅力</a>
+      <a href="mayor.html">市長</a>
+      <a href="development.html">開発部</a>
+      <a href="administration.html">管理部</a>
+      <a href="police.html">警察</a>
+      <a href="fire.html">消防</a>
+    </nav>
+    <p class="footer-note">本サイトは Roblox コミュニティ「難波市」の公式サイトです。</p>
+    <p class="footer-copyright">© NANBA CITY. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
